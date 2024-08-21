@@ -1,6 +1,8 @@
 const translations = {
     'fr': {
-        title: "Mmh pourquoi Spotify c'est de la merde?",
+        headTitle: "Pourquoi Spotify c'est de la merde?",
+        headDescription: "Pourquoi Spotify c'est de la merde? C'est une bonne question, voici pourquoi.",
+        bodyTitle: "Mmh pourquoi Spotify c'est de la merde?",
         elements:[
             "Le prix : C'est en fait l'une des plateformes de streaming les plus chères.",
             "Ils ne paient pas les petits artistes. Ce sont eux qui ont besoin d'argent pour améliorer leurs compétences/qualité et leurs stratégies de promotion.",
@@ -25,22 +27,39 @@ const translations = {
             "Les podcasts, c'est quoi ce délire ? C'est censé être une plateforme de musique, non ?"
         ]
     },
+    'es': {
+        headTitle: "¿Por qué Spotify es una mierda?",
+        headDescription: "¿Por qué Spotify es una mierda? Es una buena pregunta, aquí te explico por qué.",
+        bodyTitle: "Mmm ¿por qué Spotify es una mierda?",
+        elements: [
+            "El precio: De hecho, es una de las plataformas de streaming más caras.",
+            "No pagan a los artistas pequeños. Son ellos los que necesitan dinero para mejorar sus habilidades/calidad y estrategias de promoción.",
+            "El diseño está anticuado y es feo (esto depende de los gustos, pero es mi opinión personal).",
+            "Tienes que pagar para ver las letras de una canción (¿en serio?).",
+            "Mostrar el número de reproducciones influye en si la gente escucha una canción o no. Tendemos a pensar que si una canción no tiene muchas reproducciones, debe ser mala, lo cual no es necesariamente cierto. Cuando las estadísticas no son visibles, escuchamos la música con la mente abierta y formamos una opinión basada en la música en sí, no en sus estadísticas.",
+            "Los algoritmos son basura y están manipulados por las grandes discográficas y las compañías de publicidad como Coca. Más información: <a href=\"https://youtu.be/NXBWkLjFHRQ?si=mubEi-vOd0r5_BMk&t=512\" target=\"_blank\">aquí</a>",
+            "Actualmente, no hay audio sin pérdida (Lossless Audio), y es posible que tengas que pagar extra por ello en el futuro. [<a href=\"https://youtu.be/NXBWkLjFHRQ?si=mubEi-vOd0r5_BMk&t=512\" target=\"_blank\">fuente</a>]",
+            "No hay Dolby Atmos, alias Audio Espacial.",
+            "No hay videos musicales.",
+            "No hay sets de DJ ni conciertos.",
+            "No hay sincronización para la música local (por ejemplo, si agregas música, no se añade automáticamente a todos tus dispositivos).",
+            "No hay listas de reproducción inteligentes (listas automáticas personalizadas basadas en reglas que elijas).",
+            "Gestionado por personas que trabajan en publicidad, no en la industria musical.",
+            "Regalías muy bajas para los artistas (una de las más bajas, por cierto).",
+            "Calidad de audio mediocre (máximo 320 kbps); Apple Music, Deezer y Tidal ofrecen una calidad de audio mucho mejor.",
+            "Los artistas tienen que pagar para sincronizar las letras con su música.",
+            "Los artistas solo pueden promocionar una pista por álbum, lo que significa que solo una pista puede aparecer en listas de reproducción algorítmicas como 'Discover Weekly' o 'Release Radar'.",
+            "No hay coherencia de BPM o tono en el sistema de recomendaciones cuando Spotify selecciona la música.",
+            "No hay una opción de reproducción aleatoria verdadera.",
+            "La versión gratuita realmente no es usable. Aunque entiendo que necesitan generar ingresos para los artistas, quizás sería mejor ofrecer solo una versión premium. Los anuncios son una cosa, pero muchas funciones están bloqueadas tras un muro de pago.",
+            "¿Podcasts? ¿Qué hacen aquí? Se supone que esta es una plataforma de música, ¿no?"
+        ]
+    }
 };  
-
-function changeLanguage(lang) {
-    document.documentElement.lang = lang;
-    const elements = document.querySelectorAll('[key]');
-    elements.forEach(element => {
-      const key = element.getAttribute('key');
-      if (translations[lang] && translations[lang][key]) {
-        element.textContent = translations[lang][key];
-      }
-    });
-}
 
 function addTitle(content, lang) {
     const title = document.createElement('h1');
-    title.textContent = translations[lang]['title'];
+    title.textContent = translations[lang]['bodyTitle'];
     content.appendChild(title);
 }
 
@@ -54,12 +73,20 @@ function addElement(content, lang, key) {
     content.appendChild(elementValue);
 }
 
+function editHeadInfos(lang){
+    document.title = translations[lang]['headTitle'];
+    const metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription.setAttribute('content', translations[lang]['headDescription']);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('content');
     const userLang = Object.keys(translations).find(lang => (navigator.language).includes(lang)) || 'en';
     if(userLang !== 'en') {
+        document.documentElement.lang = userLang;
         content.innerHTML = '';
         setTimeout(() => {
+            editHeadInfos(userLang);
             addTitle(content, userLang);
             for(let i = 1; i <= translations[userLang]['elements'].length; i++) {
                 addElement(content, userLang, i);
