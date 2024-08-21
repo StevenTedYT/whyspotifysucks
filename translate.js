@@ -68,7 +68,6 @@ function changeLanguage() {
     document.title = translations[lang]['headTitle'];
     const metaDescription = document.querySelector('meta[name="description"]');
     metaDescription.setAttribute('content', translations[lang]['headDescription']);
-
     //Body
     const title = document.createElement('h1');
     title.textContent = translations[lang]['bodyTitle'];
@@ -77,7 +76,6 @@ function changeLanguage() {
         const elementKey = document.createElement('h3');
         elementKey.textContent = `${index+1}.`;
         content.appendChild(elementKey);
-
         const elementValue = document.createElement('p');
         elementValue.innerHTML = element;
         content.appendChild(elementValue);
@@ -87,5 +85,5 @@ function changeLanguage() {
 document.addEventListener('DOMContentLoaded', () => {
     const userLang = Object.keys(translations).find(lang => (navigator.language).includes(lang)) || 'en';
     document.documentElement.lang = userLang;
-    changeLanguage()
+    changeLanguage();
 });  
