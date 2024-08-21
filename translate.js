@@ -3,7 +3,7 @@ const translations = {
         headTitle: "Pourquoi Spotify c'est de la merde?",
         headDescription: "Pourquoi Spotify c'est de la merde? C'est une bonne question, voici pourquoi.",
         bodyTitle: "Mmh pourquoi Spotify c'est de la merde?",
-        elements:[
+        bodyElements:[
             "Le prix : C'est en fait l'une des plateformes de streaming les plus chères.",
             "Ils ne paient pas les petits artistes. Ce sont eux qui ont besoin d'argent pour améliorer leurs compétences/qualité et leurs stratégies de promotion.",
             "Le design est dépassé et nul (ça dépend des goûts, mais c'est mon avis perso).",
@@ -31,7 +31,7 @@ const translations = {
         headTitle: "¿Por qué Spotify es una mierda?",
         headDescription: "¿Por qué Spotify es una mierda? Es una buena pregunta, aquí te explico por qué.",
         bodyTitle: "Mmm ¿por qué Spotify es una mierda?",
-        elements: [
+        bodyElements: [
             "El precio: De hecho, es una de las plataformas de streaming más caras.",
             "No pagan a los artistas pequeños. Son ellos los que necesitan dinero para mejorar sus habilidades/calidad y estrategias de promoción.",
             "El diseño está anticuado y es feo (esto depende de los gustos, pero es mi opinión personal).",
@@ -57,40 +57,35 @@ const translations = {
     }
 };  
 
-function addTitle(content, lang) {
-    const title = document.createElement('h1');
-    title.textContent = translations[lang]['bodyTitle'];
-    content.appendChild(title);
-}
+//Hi, i'm tanukii, contact me on discord @untanukii or on twitter (x) @untanukii 
 
-function addElement(content, lang, key) {
-    const elementKey = document.createElement('h3');
-    elementKey.textContent = `${key}.`;
-    content.appendChild(elementKey);
-
-    const elementValue = document.createElement('p');
-    elementValue.innerHTML = translations[lang]['elements'][key-1];
-    content.appendChild(elementValue);
-}
-
-function editHeadInfos(lang){
+function changeLanguage() {
+    const content = document.getElementById('content');
+    const lang = document.documentElement.lang;
+    if(lang === 'en') return;
+    content.innerHTML = '';
+    //Head
     document.title = translations[lang]['headTitle'];
     const metaDescription = document.querySelector('meta[name="description"]');
     metaDescription.setAttribute('content', translations[lang]['headDescription']);
-}
+
+    //Body
+    const title = document.createElement('h1');
+    title.textContent = translations[lang]['bodyTitle'];
+    content.appendChild(title);
+    translations[lang]['bodyElements'].forEach((element, index) => {
+        const elementKey = document.createElement('h3');
+        elementKey.textContent = `${index+1}.`;
+        content.appendChild(elementKey);
+
+        const elementValue = document.createElement('p');
+        elementValue.innerHTML = element;
+        content.appendChild(elementValue);
+    });
+};
 
 document.addEventListener('DOMContentLoaded', () => {
-    const content = document.getElementById('content');
     const userLang = Object.keys(translations).find(lang => (navigator.language).includes(lang)) || 'en';
-    if(userLang !== 'en') {
-        document.documentElement.lang = userLang;
-        content.innerHTML = '';
-        setTimeout(() => {
-            editHeadInfos(userLang);
-            addTitle(content, userLang);
-            for(let i = 1; i <= translations[userLang]['elements'].length; i++) {
-                addElement(content, userLang, i);
-            }
-        }, 1000);
-    }
+    document.documentElement.lang = userLang;
+    changeLanguage()
 });  
