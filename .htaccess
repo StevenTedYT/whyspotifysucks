@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+?)index(\.html)?\s [NC]
+RewriteRule ^ %1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*?)/?$ $1.html [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
