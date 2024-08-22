@@ -60,7 +60,7 @@ const translations = {
 //Hi, i'm tanukii, contact me on discord @untanukii or on twitter (x) @untanukii 
 
 function changeLanguage() {
-    const content = document.getElementById('content');
+    const content = document.querySelector('.content');
     const lang = document.documentElement.lang;
     if(lang === 'en') return;
     content.innerHTML = '';
