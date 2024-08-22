@@ -124,4 +124,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const userLang = Object.keys(translations).find(lang => (navigator.language).includes(lang)) || 'en';
     document.documentElement.lang = userLang;
     changeLanguage();
+    document.addEventListener('keydown', function(event) {
+        if (event.code === 'Space') {
+            event.preventDefault();
+            const audio = document.getElementById('music');
+            if(audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    });
 });  
