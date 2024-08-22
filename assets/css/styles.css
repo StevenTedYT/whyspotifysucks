@@ -106,6 +106,7 @@ footer {
 }
 
 footer p {
+  text-align: center;
   opacity: 0.7;
   font-size: 1em;
 }
