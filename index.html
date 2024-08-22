@@ -59,5 +59,21 @@
         <h3>21.</h3>
         <p>Podcasts wtf they are doing here? This is supposed to be a music platform, right?</p>
     </div>
+    <footer>
+        <p>Made by <a href="https://github.com/untanukii" target="_blank">tanukii</a> & <a href="https://github.com/steventedyt" target="_blank">StevenTed</a> (<a href="https://github.com/steventedyt/whyspotifysucks" target="_blank">Giwthuwb~</a>)</p>
+    </footer>
+    <audio id="music" src="music.mp3" autoplay loop muted>
+        Your browser does not support the audio element.
+    </audio>
+    <script>
+        const audio = document.getElementById('music');
+    
+        document.addEventListener('click', () => {
+            audio.volume = 0.2;
+            audio.muted = false;
+            audio.play(); 
+        });
+    </script>
+    
 </body>
 </html>

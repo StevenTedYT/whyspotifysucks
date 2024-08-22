@@ -57,8 +57,6 @@ const translations = {
     }
 };  
 
-//Hi, i'm tanukii, contact me on discord @untanukii or on twitter (x) @untanukii 
-
 function changeLanguage() {
     const content = document.querySelector('.content');
     const lang = document.documentElement.lang;

@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'CuteSmile';
+  src: url('CuteSmile.ttf') format('truetype');
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 20px;
 }
@@ -8,6 +13,8 @@ body {
   body {
     background-color: #ffffff;
     color: #000000;
+    font-weight: bold;
+    background-image: url("https://media.discordapp.net/attachments/813521298713608242/1276221227895226368/nwordv2.png?ex=66c8bd23&is=66c76ba3&hm=30ad49dece860a63ddda0e7aee0182a6015e3af0df7a621b13244788ba667b79&=&format=webp&quality=lossless&width=89&height=89");
   }
 
   h1 {
@@ -22,11 +29,11 @@ body {
     color: #000000;
   }
 
-  a.source-button {
+  a {
     color: #007bff;
   }
 
-  a.source-button:hover {
+  a:hover {
     text-decoration: underline;
   }
 }
@@ -35,6 +42,7 @@ body {
   body {
     background-color: #121212;
     color: #ffffff;
+    background-image: url("https://media.discordapp.net/attachments/813521298713608242/1276223152229449748/DarkTheme_v2.png?ex=66c8beee&is=66c76d6e&hm=9290ef5ff448f2f35e1c8daa9fc58e2632a2ef2c4197fe41c526dc37776f8751&=&format=webp&quality=lossless&width=89&height=89");
   }
 
   h1 {
@@ -49,11 +57,11 @@ body {
     color: #ffffff;
   }
 
-  a.source-button {
+  a {
     color: #1e90ff;
   }
 
-  a.source-button:hover {
+  a:hover {
     text-decoration: underline;
   }
 }
@@ -65,9 +73,10 @@ body {
 }
 
 h1 {
-  font-size: 2.5em;
-
-  margin-bottom: 100px;
+  font-family: 'CuteSmile', sans-serif;
+  font-size: 3em;
+  letter-spacing: 5px;
+  margin-bottom: 80px;
   padding-top: 60px;
   text-align: center;
 }
@@ -79,27 +88,24 @@ h3 {
 
 p {
   font-size: 1.25em;
-
   margin-bottom: 40px;
 }
 
-ol {
-  padding-left: 20px;
-  list-style-type: decimal;
+footer {
+  display: flex;
+  justify-content: center;
 }
 
-li {
-  margin-bottom: 15px;
+footer p {
+  opacity: 0.7;
   font-size: 1em;
-  color: #000000;
 }
 
-a.source-button {
-  color: #007bff;
-  text-decoration: none;
+a {
+  text-decoration: none;;
   font-weight: bold;
 }
 
-a.source-button:hover {
+a:hover {
   text-decoration: underline;
 }
