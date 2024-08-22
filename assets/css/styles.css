@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'CuteSmile';
-  src: url('CuteSmile.ttf') format('truetype');
+  src: url('/assets/fonts/CuteSmile.ttf') format('truetype');
 }
 
 body {

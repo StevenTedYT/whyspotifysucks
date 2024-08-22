@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-    <link rel="manifest" href="/icons/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/icons/site.webmanifest">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Why does Spotify suck?</title>
     <meta name="description" content="Why does Spotify suck? It's a good question, here's why.">
-    <link rel="stylesheet" href="styles.css">
-    <script src="./translate.js" defer></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/translate.js" defer></script>
 </head>
 <body>
     <div class="content">
@@ -60,14 +60,13 @@
         <p>Podcasts wtf they are doing here? This is supposed to be a music platform, right?</p>
     </div>
     <footer>
-        <p>Made by <a href="https://github.com/untanukii" target="_blank">tanukii</a> & <a href="https://github.com/steventedyt" target="_blank">StevenTed</a> (<a href="https://github.com/steventedyt/whyspotifysucks" target="_blank">Giwthuwb~</a>)</p>
+        <p>Made by <a href="https://github.com/untanukii" target="_blank">tanukii</a> & <a href="https://github.com/steventedyt" target="_blank">StevenTed</a> (<a href="https://github.com/steventedyt/whyspotifysucks" target="_blank">GithUwUb~</a>)</p>
     </footer>
-    <audio id="music" src="music.mp3" autoplay loop muted>
+    <audio id="music" src="assets/music/music.mp3" autoplay loop muted>
         Your browser does not support the audio element.
     </audio>
     <script>
         const audio = document.getElementById('music');
-    
         document.addEventListener('click', () => {
             audio.volume = 0.2;
             audio.muted = false;

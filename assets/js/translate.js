@@ -2,7 +2,7 @@ const translations = {
     'fr': {
         headTitle: "Pourquoi Spotify c'est de la merde?",
         headDescription: "Pourquoi Spotify c'est de la merde? C'est une bonne question, voici pourquoi.",
-        bodyTitle: "Mmh pourquoi Spotify c'est de la merde?",
+        bodyTitle: "Mmh pourquoi SpOwOtify~ c'est de la merde?",
         bodyElements:[
             "Le prix : C'est en fait l'une des plateformes de streaming les plus chères.",
             "Ils ne paient pas les petits artistes. Ce sont eux qui ont besoin d'argent pour améliorer leurs compétences/qualité et leurs stratégies de promotion.",
@@ -25,7 +25,8 @@ const translations = {
             "Pas de vraie option de lecture aléatoire.",
             "La version gratuite n'est vraiment pas utilisable. Je comprends qu'ils doivent générer des revenus pour les artistes, mais il vaudrait peut-être mieux offrir uniquement une version premium. Les pubs, c'est une chose, mais beaucoup de fonctionnalités sont bloquées derrière un paywall.",
             "Les podcasts, c'est quoi ce délire ? C'est censé être une plateforme de musique, non ?"
-        ]
+        ],
+        bodyFooter: "Fait par <a href=\"https://github.com/untanukii\" target=\"_blank\">tanukii</a> & <a href=\"https://github.com/steventedyt\" target=\"_blank\">StevenTed</a> (<a href=\"https://github.com/steventedyt/whyspotifysucks\" target=\"_blank\">GithUwUb~</a>)"
     },
     'es': {
         headTitle: "¿Por qué Spotify es una mierda?",
@@ -53,7 +54,8 @@ const translations = {
             "No hay una opción de reproducción aleatoria verdadera.",
             "La versión gratuita realmente no es usable. Aunque entiendo que necesitan generar ingresos para los artistas, quizás sería mejor ofrecer solo una versión premium. Los anuncios son una cosa, pero muchas funciones están bloqueadas tras un muro de pago.",
             "¿Podcasts? ¿Qué hacen aquí? Se supone que esta es una plataforma de música, ¿no?"
-        ]
+        ],
+        bodyFooter: "Hecho por <a href=\"https://github.com/untanukii\" target=\"_blank\">tanukii</a> & <a href=\"https://github.com/steventedyt\" target=\"_blank\">StevenTed</a> (<a href=\"https://github.com/steventedyt/whyspotifysucks\" target=\"_blank\">GithUwUb~</a>)"
     }
 };  
 
@@ -78,6 +80,8 @@ function changeLanguage() {
         elementValue.innerHTML = element;
         content.appendChild(elementValue);
     });
+    const footer = document.querySelector('footer p');
+    footer.innerHTML = translations[lang]['bodyFooter'];
 };
 
 document.addEventListener('DOMContentLoaded', () => {
