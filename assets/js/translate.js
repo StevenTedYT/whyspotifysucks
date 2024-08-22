@@ -62,7 +62,7 @@ const translations = {
     'de': {
         headTitle: "Warum ist Spotify scheiße?",
         headDescription: "Warum ist Spotify scheiße? Das ist eine gute Frage, hier ist der Grund.",
-        bodyTitle: "Mmh, warum ist SpOwOtify~ scheiße?",
+        bodyTitle: "Mmh, warum ist Spotify scheiße?",
         bodySubtitle: "Klicke irgendwo, um die kawaii Musik uwu~ zu starten",
         bodyElements:[
             "Der Preis: Es ist tatsächlich eine der teuersten Streaming-Plattformen.",
