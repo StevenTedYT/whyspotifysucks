@@ -133,6 +133,14 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 audio.pause();
             }
+        }else if (event.code === 'ArrowUp') {
+            event.preventDefault();
+            const audio = document.getElementById('music');
+            audio.volume += 0.1;
+        }else if (event.code === 'ArrowDown') {
+            event.preventDefault();
+            const audio = document.getElementById('music');
+            audio.volume -= 0.1;
         }
     });
 });  
