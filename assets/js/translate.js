@@ -3,6 +3,7 @@ const translations = {
         headTitle: "Pourquoi Spotify c'est de la merde?",
         headDescription: "Pourquoi Spotify c'est de la merde? C'est une bonne question, voici pourquoi.",
         bodyTitle: "Mmh pourquoi SpOwOtify~ c'est de la merde?",
+        bodySubtitle: "Clique n'importe où pour lancer la musique kawaii uwu~",
         bodyElements:[
             "Le prix : C'est en fait l'une des plateformes de streaming les plus chères.",
             "Ils ne paient pas les petits artistes. Ce sont eux qui ont besoin d'argent pour améliorer leurs compétences/qualité et leurs stratégies de promotion.",
@@ -32,6 +33,7 @@ const translations = {
         headTitle: "¿Por qué Spotify es una mierda?",
         headDescription: "¿Por qué Spotify es una mierda? Es una buena pregunta, aquí te explico por qué.",
         bodyTitle: "Mmm ¿por qué Spotify es una mierda?",
+        bodySubtitle: "Haz clic en cualquier lugar para reproducir música kawaii uwu~",
         bodyElements: [
             "El precio: De hecho, es una de las plataformas de streaming más caras.",
             "No pagan a los artistas pequeños. Son ellos los que necesitan dinero para mejorar sus habilidades/calidad y estrategias de promoción.",
@@ -72,6 +74,10 @@ function changeLanguage() {
     const title = document.createElement('h1');
     title.textContent = translations[lang]['bodyTitle'];
     content.appendChild(title);
+    const subtitle = document.createElement('p');
+    subtitle.classList.add('subtitle');
+    subtitle.textContent = translations[lang]['bodySubtitle'];
+    content.appendChild(subtitle);
     translations[lang]['bodyElements'].forEach((element, index) => {
         const elementKey = document.createElement('h3');
         elementKey.textContent = `${index+1}.`;
