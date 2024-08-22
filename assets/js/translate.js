@@ -58,6 +58,36 @@ const translations = {
             "¿Podcasts? ¿Qué hacen aquí? Se supone que esta es una plataforma de música, ¿no?"
         ],
         bodyFooter: "Hecho por <a href=\"https://github.com/untanukii\" target=\"_blank\">tanukii</a> & <a href=\"https://github.com/steventedyt\" target=\"_blank\">StevenTed</a> <br> Si te gusta esta página, estrella el repositorio en <a href=\"https://github.com/steventedyt/whyspotifysucks\" target=\"_blank\">GithUwUb~</a>"
+    },
+    'de': {
+        headTitle: "Warum ist Spotify scheiße?",
+        headDescription: "Warum ist Spotify scheiße? Das ist eine gute Frage, hier ist der Grund.",
+        bodyTitle: "Mmh, warum ist SpOwOtify~ scheiße?",
+        bodySubtitle: "Klicke irgendwo, um die kawaii Musik uwu~ zu starten",
+        bodyElements:[
+            "Der Preis: Es ist tatsächlich eine der teuersten Streaming-Plattformen.",
+            "Sie zahlen den kleinen Künstlern nicht. Diese brauchen das Geld, um ihre Fähigkeiten/Qualität und ihre Promotion-Strategien zu verbessern.",
+            "Das Design ist veraltet und schlecht (das ist Geschmackssache, aber das ist meine persönliche Meinung).",
+            "Man muss bezahlen, um die Songtexte zu sehen (meinen die das ernst??)",
+            "Die Anzeige der Stream-Zahlen beeinflusst, ob Menschen einen Song hören oder nicht. Man neigt dazu zu denken, dass ein Song, der nicht viele Streams hat, schlecht sein muss, was nicht unbedingt stimmt. Wenn die Statistiken nicht sichtbar sind, hört man die Musik ohne Vorurteile und bildet sich eine Meinung basierend auf der Musik selbst, nicht auf ihren Statistiken.",
+            "Die Algorithmen sind schlecht und werden von großen Plattenfirmen und Werbefirmen wie Coca manipuliert. Mehr Infos: <a href=\"https://youtu.be/NXBWkLjFHRQ?si=mubEi-vOd0r5_BMk&t=512\" target=\"_blank\">hier</a>",
+            "Keine verlustfreie Audioqualität (Lossless Audio) momentan, und du musst vielleicht in Zukunft zusätzlich dafür zahlen. [<a href=\"https://www.theverge.com/2024/5/3/24147887/spotify-hifi-lossless-audio-music-streaming-ui-leak\" target=\"_blank\">Quelle</a>]",
+            "Kein Dolby Atmos, alias Spatial Audio.",
+            "Keine Musikvideos.",
+            "Keine DJ-Sets oder Konzerte.",
+            "Keine Synchronisierung für lokale Musik (zum Beispiel, wenn du Musik hinzufügst, wird sie nicht automatisch auf all deinen Geräten hinzugefügt).",
+            "Keine intelligenten Playlists (automatisch personalisierte Playlists basierend auf Regeln, die du auswählst).",
+            "Verwaltet von Leuten, die in der Werbung arbeiten, nicht in der Musikindustrie.",
+            "Sehr niedrige Royalties für Künstler (eine der niedrigsten überhaupt).",
+            "Mediocre Audioqualität (max. 320 kbps); Apple Music, Deezer und Tidal bieten eine viel bessere Audioqualität.",
+            "Künstler müssen zahlen, um die Songtexte mit ihrer Musik zu synchronisieren.",
+            "Künstler können nur einen Song pro Album pitchen, daher kann nur ein Song in algorithmischen Playlists wie 'Discover Weekly' oder 'Release Radar' hervorgehoben werden.",
+            "Keine Konsistenz des BPM oder der Tonart im Empfehlungssystem, wenn Spotify Musik auswählt.",
+            "Keine echte Zufallswiedergabe-Option.",
+            "Die kostenlose Version ist wirklich nicht nutzbar. Ich verstehe, dass sie Einnahmen für die Künstler generieren müssen, aber es wäre vielleicht besser, nur eine Premium-Version anzubieten. Werbung ist eine Sache, aber viele Funktionen sind hinter einer Paywall verborgen.",
+            "Podcasts, was soll das bitte? Es soll doch eine Musikplattform sein, oder?"
+        ],
+        bodyFooter: "Erstellt von <a href=\"https://github.com/untanukii\" target=\"_blank\">tanukii</a> & <a href=\"https://github.com/steventedyt\" target=\"_blank\">StevenTed</a> <br> Wenn dir diese Seite gefällt, gib dem Repository ein Sternchen auf <a href=\"https://github.com/steventedyt/whyspotifysucks\" target=\"_blank\">GithUwUb~</a>"
     }
 };  
 
