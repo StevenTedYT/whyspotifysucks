@@ -3,7 +3,7 @@ const translations = {
         headTitle: "Pourquoi Spotify c'est de la merde?",
         headDescription: "Pourquoi Spotify c'est de la merde? C'est une bonne question, voici pourquoi.",
         bodyTitle: "Mmh pourquoi SpOwOtify~ c'est de la merde?",
-        bodySubtitle: "Clique n'importe où pour lancer la musique kawaii uwu~ (TEST)",
+        bodySubtitle: "Clique n'importe où pour lancer la musique kawaii uwu~ (TEST TEST)",
         bodyElements:[
             "Le prix : C'est en fait l'une des plateformes de streaming les plus chères.",
             "Ils ne paient pas les petits artistes. Ce sont eux qui ont besoin d'argent pour améliorer leurs compétences/qualité et leurs stratégies de promotion.",
