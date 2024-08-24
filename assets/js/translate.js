@@ -89,7 +89,7 @@ const translations = {
         ],
         bodyFooter: "Erstellt von <a href=\"https://github.com/untanukii\" target=\"_blank\">tanukii</a> & <a href=\"https://github.com/steventedyt\" target=\"_blank\">StevenTed</a> <br> Wenn dir diese Seite gefällt, gib dem Repository ein Sternchen auf <a href=\"https://github.com/steventedyt/whyspotifysucks\" target=\"_blank\">GithUwUb~</a>"
     },
-    'jp': {
+    'ja': {
         headTitle: "なんでSpotifyはクソなの？",
         headDescription: "なんでSpotifyはクソなの？それは良い質問、これが理由だよ。",
         bodyTitle: "うーん、なんでSpOwOtify~はクソなの？",
