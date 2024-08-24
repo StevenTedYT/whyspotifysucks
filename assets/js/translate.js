@@ -88,7 +88,37 @@ const translations = {
             "Podcasts, was soll das bitte? Es soll doch eine Musikplattform sein, oder?"
         ],
         bodyFooter: "Erstellt von <a href=\"https://github.com/untanukii\" target=\"_blank\">tanukii</a> & <a href=\"https://github.com/steventedyt\" target=\"_blank\">StevenTed</a> <br> Wenn dir diese Seite gefällt, gib dem Repository ein Sternchen auf <a href=\"https://github.com/steventedyt/whyspotifysucks\" target=\"_blank\">GithUwUb~</a>"
-    }
+    },
+    'jp': {
+        headTitle: "なんでSpotifyはクソなの？",
+        headDescription: "なんでSpotifyはクソなの？それは良い質問、これが理由だよ。",
+        bodyTitle: "うーん、なんでSpOwOtify~はクソなの？",
+        bodySubtitle: "どこでもクリックして、かわいい音楽を再生しよう！",
+        bodyElements:[
+            "料金: 実は一番高いストリーミングサービスの一つだよ。",
+            "小さなアーティストにはお金を払わない。彼らこそスキルやクオリティを向上させたり、プロモーションの戦略を練るためにお金が必要なのに。",
+            "デザインが古くてダサい（好みによるけど、これが俺の意見）。",
+            "歌詞を見るためにお金を払わないといけない（マジでそれあり？）。",
+            "ストリーム数を表示するのが、曲を聴くかどうかに影響する。少ないストリーム数の曲はダメだと思われがちだけど、それは間違い。統計が見えないと、先入観なしで音楽を聴けて、自分の意見を持てる。",
+            "アルゴリズムがゴミで、大手レコード会社やコカコーラみたいな広告会社に操作されてる。もっと詳しくは<a href=\"https://youtu.be/NXBWkLjFHRQ?si=mubEi-vOd0r5_BMk&t=512\" target=\"_blank\">ここで</a>",
+            "ロスレスオーディオがまだないし、将来それに追加料金がかかるかもしれない。 [<a href=\"https://www.theverge.com/2024/5/3/24147887/spotify-hifi-lossless-audio-music-streaming-ui-leak\" target=\"_blank\">ソース</a>]",
+            "Dolby Atmos（空間オーディオ）がない。",
+            "ビデオクリップがない。",
+            "DJセットやコンサートがない。",
+            "ローカルの音楽の同期ができない（例えば、曲を追加しても、全デバイスに自動で追加されない）。",
+            "スマートプレイリストがない（自分で設定したルールに基づいて自動で作成されるプレイリスト）。",
+            "音楽業界じゃなくて広告業界の人たちが運営してる。",
+            "アーティストへのロイヤリティがめっちゃ低い（しかも一番低い方）。",
+            "音質が悪い（最大320 kbps）；Apple Music、Deezer、Tidalの方がはるかに良い音質を提供してる。",
+            "アーティストが歌詞と音楽を同期させるためにはお金を払わないといけない。",
+            "アーティストはアルバムごとに一曲しかプレイリストに提案できないから、‘Discover Weekly’や‘Release Radar’みたいなアルゴリズムプレイリストで推されるのは一曲だけ。",
+            "Spotifyが選ぶ曲にはBPMやキーの一貫性がない。",
+            "本当のシャッフル機能がない。",
+            "無料版は本当に使えない。アーティストに収益をもたらす必要があるのは分かるけど、プレミアム版だけを提供した方がいいかも。広告はいいけど、たくさんの機能が課金でロックされてる。",
+            "ポッドキャスト、何それ？ここは音楽プラットフォームのはずじゃないの？"
+        ],
+        bodyFooter: "<a href=\"https://github.com/untanukii\" target=\"_blank\">tanukii</a> & <a href=\"https://github.com/steventedyt\" target=\"_blank\">StevenTed</a> が作ったよ <br> このページが気に入ったら、<a href=\"https://github.com/steventedyt/whyspotifysucks\" target=\"_blank\">GithUwUb~</a> でスターをつけてね"
+    }    
 };  
 
 function changeLanguage() {
