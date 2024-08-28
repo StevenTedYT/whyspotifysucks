@@ -20,7 +20,7 @@ This project was created by **StevenTed** and **tanukii** as a way to express th
 
 ## 👥 Contributors
 
-- **StevenTed** - Frontend Development, Main Argumentation
+- **StevenTed** - Frontend Development, Main Argumentation and Translations
 - **tanukii** - Translation System, Translations, Logo Designer, and Assistance with Argumentation
 
 ## 📚 How to Contribute
