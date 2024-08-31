@@ -10,8 +10,8 @@ const translations = {
             "Le design est dépassé et nul (ça dépend des goûts, mais c'est mon avis perso).",
             "Tu dois payer pour voir les paroles d'une chanson (genre c'est sérieux ça ??)",
             "Afficher le nombre de streams influence si les gens écoutent une chanson ou non. On a tendance à penser que si une chanson n'a pas beaucoup de streams, elle doit être nulle, ce qui n'est pas forcément vrai. Quand les stats ne sont pas visibles, on écoute la musique sans idée préconçue et on se fait un avis basé sur la musique elle-même, pas sur ses statistiques.",
-            "Les algorithmes sont pourris et manipulés par les grandes maisons de disques et les boîtes de pub comme Coca. Plus d'infos : <a href=\"https://youtu.be/NXBWkLjFHRQ?si=mubEi-vOd0r5_BMk&t=512\" target=\"_blank\">ici</a>",
-            "Pas d'audio en qualité sans perte (Lossless Audio) pour l'instant, et tu devras peut-être payer en plus pour ça à l'avenir. [<a href=\"https://www.theverge.com/2024/5/3/24147887/spotify-hifi-lossless-audio-music-streaming-ui-leak\" target=\"_blank\">source</a>]",
+            "Les algorithmes sont pourris et manipulés par les grandes maisons de disques et les boîtes de pub comme Coca. Plus d'infos : ",
+            "Pas d'audio en qualité sans perte (Lossless Audio) pour l'instant, et tu devras peut-être payer en plus pour ça à l'avenir.",
             "Pas de Dolby Atmos, alias Spatial Audio.",
             "Pas de clips vidéo.",
             "Pas de sets de DJ ou de concerts.",
@@ -40,8 +40,8 @@ const translations = {
             "El diseño está anticuado y es feo (esto depende de los gustos, pero es mi opinión personal).",
             "Tienes que pagar para ver las letras de una canción (¿en serio?).",
             "Mostrar el número de reproducciones influye en si la gente escucha una canción o no. Tendemos a pensar que si una canción no tiene muchas reproducciones, debe ser mala, lo cual no es necesariamente cierto. Cuando las estadísticas no son visibles, escuchamos la música con la mente abierta y formamos una opinión basada en la música en sí, no en sus estadísticas.",
-            "Los algoritmos son basura y están manipulados por las grandes discográficas y las compañías de publicidad como Coca. Más información: <a href=\"https://youtu.be/NXBWkLjFHRQ?si=mubEi-vOd0r5_BMk&t=512\" target=\"_blank\">aquí</a>",
-            "Actualmente, no hay audio sin pérdida (Lossless Audio), y es posible que tengas que pagar extra por ello en el futuro. [<a href=\"https://www.theverge.com/2024/5/3/24147887/spotify-hifi-lossless-audio-music-streaming-ui-leak\" target=\"_blank\">fuente</a>]",
+            "Los algoritmos son basura y están manipulados por las grandes discográficas y las compañías de publicidad como Coca. Más información:",
+            "Actualmente, no hay audio sin pérdida (Lossless Audio), y es posible que tengas que pagar extra por ello en el futuro.",
             "No hay Dolby Atmos, alias Audio Espacial.",
             "No hay videos musicales.",
             "No hay sets de DJ ni conciertos.",
@@ -70,8 +70,8 @@ const translations = {
             "Das Design ist veraltet und schlecht (das ist Geschmackssache, aber das ist meine persönliche Meinung).",
             "Man muss bezahlen, um die Songtexte zu sehen (meinen die das ernst??)",
             "Die Anzeige der Stream-Zahlen beeinflusst, ob Menschen einen Song hören oder nicht. Man neigt dazu zu denken, dass ein Song, der nicht viele Streams hat, schlecht sein muss, was nicht unbedingt stimmt. Wenn die Statistiken nicht sichtbar sind, hört man die Musik ohne Vorurteile und bildet sich eine Meinung basierend auf der Musik selbst, nicht auf ihren Statistiken.",
-            "Die Algorithmen sind schlecht und werden von großen Plattenfirmen und Werbefirmen wie Coca manipuliert. Mehr Infos: <a href=\"https://youtu.be/NXBWkLjFHRQ?si=mubEi-vOd0r5_BMk&t=512\" target=\"_blank\">hier</a>",
-            "Keine verlustfreie Audioqualität (Lossless Audio) momentan, und du musst vielleicht in Zukunft zusätzlich dafür zahlen. [<a href=\"https://www.theverge.com/2024/5/3/24147887/spotify-hifi-lossless-audio-music-streaming-ui-leak\" target=\"_blank\">Quelle</a>]",
+            "Die Algorithmen sind schlecht und werden von großen Plattenfirmen und Werbefirmen wie Coca manipuliert. Mehr Infos:",
+            "Keine verlustfreie Audioqualität (Lossless Audio) momentan, und du musst vielleicht in Zukunft zusätzlich dafür zahlen.",
             "Kein Dolby Atmos, alias Spatial Audio.",
             "Keine Musikvideos.",
             "Keine DJ-Sets oder Konzerte.",
@@ -100,8 +100,8 @@ const translations = {
             "デザインが古くてダサい（好みによるけど、これが俺の意見）。",
             "歌詞を見るためにお金を払わないといけない（マジでそれあり？）。",
             "ストリーム数を表示するのが、曲を聴くかどうかに影響する。少ないストリーム数の曲はダメだと思われがちだけど、それは間違い。統計が見えないと、先入観なしで音楽を聴けて、自分の意見を持てる。",
-            "アルゴリズムがゴミで、大手レコード会社やコカコーラみたいな広告会社に操作されてる。もっと詳しくは<a href=\"https://youtu.be/NXBWkLjFHRQ?si=mubEi-vOd0r5_BMk&t=512\" target=\"_blank\">ここで</a>",
-            "ロスレスオーディオがまだないし、将来それに追加料金がかかるかもしれない。 [<a href=\"https://www.theverge.com/2024/5/3/24147887/spotify-hifi-lossless-audio-music-streaming-ui-leak\" target=\"_blank\">ソース</a>]",
+            "アルゴリズムがゴミで、大手レコード会社やコカコーラみたいな広告会社に操作されてる。もっと詳しくは",
+            "ロスレスオーディオがまだないし、将来それに追加料金がかかるかもしれない。",
             "Dolby Atmos（空間オーディオ）がない。",
             "ビデオクリップがない。",
             "DJセットやコンサートがない。",
@@ -121,10 +121,164 @@ const translations = {
     }    
 };  
 
+const sources = {
+    "2":{
+        "format":'[%LINK%]',
+        "sources":[{
+            "link": "https://www.theguardian.com/commentisfree/2023/nov/30/spotify-smaller-artists-wrapped-indie-musicians",
+            "texts": {
+                "en":"source",
+                "fr":"source",
+                "es":"fuente",
+                "de":"Quelle",
+                "ja":"ソース"
+            }
+        }]
+    },
+    "4":{
+        "format":'[%LINK%]',
+        "sources":[{
+            "link": "https://www.theverge.com/2023/9/5/23860124/spotify-lyrics-premium-only-feature",
+            "texts": {
+                "en":"source",
+                "fr":"source",
+                "es":"fuente",
+                "de":"Quelle",
+                "ja":"ソース"
+            }
+        }]
+    },
+    "6":{
+        "format":'%LINK%',
+        "sources":[{
+            "link": "https://www.theverge.com/2023/9/5/23860124/spotify-lyrics-premium-only-feature",
+            "texts": {
+                "en":"here",
+                "fr":"ici",
+                "es":"aquí",
+                "de":"hier",
+                "ja":"ここ"
+            }
+        }]
+    },
+    "7":{
+        "format":'[%LINK%]',
+        "sources":[{
+            "link":"https://www.theverge.com/2024/5/3/24147887/spotify-hifi-lossless-audio-music-streaming-ui-leak",
+            "texts":{
+                "en":"source",
+                "fr":"source",
+                "es":"fuente",
+                "de":"Quelle",
+                "ja":"ソース"
+            }
+        },{
+            "link":"https://en.wikipedia.org/wiki/Comparison_of_music_streaming_services",
+            "texts":{
+                "en":"source",
+                "fr":"source",
+                "es":"fuente",
+                "de":"Quelle",
+                "ja":"ソース"
+            }
+        }]
+    },
+    "8":{
+        "format":'[%LINK%]',
+        "sources":[{
+            "link":"https://www.usemogul.com/post/does-spotify-have-dolby-atmos",
+            "texts":{
+                "en":"source",
+                "fr":"source",
+                "es":"fuente",
+                "de":"Quelle",
+                "ja":"ソース"
+            }
+        }]
+    },
+    "13": {
+        "format":'[%LINK%]',
+        "sources":[{
+            "link":"https://en.wikipedia.org/wiki/Daniel_Ek",
+            "texts": {
+                "en":'source: "and later started Advertigo, an online advertising company"',
+                "fr":'source: "and later started Advertigo, an online advertising company"',
+                "es":'fuente: "and later started Advertigo, an online advertising company"',
+                "de":'Quelle: "and later started Advertigo, an online advertising company"',
+                "ja":'ソース: "and later started Advertigo, an online advertising company"'
+            }
+        }, {
+            "link":"https://en.wikipedia.org/wiki/Martin_Lorentzon",
+            "texts": {
+                "en":'source: "Sven Hans Martin Lorentzon [...] is [...] co-founder of Tradedoubler" & "In March 2006 Tradedoubler bought advertising service Advertigo, created by Daniel Ek',
+                "fr":'source: "Sven Hans Martin Lorentzon [...] is [...] co-founder of Tradedoubler" & "In March 2006 Tradedoubler bought advertising service Advertigo, created by Daniel Ek',
+                "es":'fuente: "Sven Hans Martin Lorentzon [...] is [...] co-founder of Tradedoubler" & "In March 2006 Tradedoubler bought advertising service Advertigo, created by Daniel Ek',
+                "de":'Quelle: "Sven Hans Martin Lorentzon [...] is [...] co-founder of Tradedoubler" & "In March 2006 Tradedoubler bought advertising service Advertigo, created by Daniel Ek',
+                "ja":'ソース: "Sven Hans Martin Lorentzon [...] is [...] co-founder of Tradedoubler" & "In March 2006 Tradedoubler bought advertising service Advertigo, created by Daniel Ek'
+            }
+        }]
+    },
+    "14": {
+        "format":'[%LINK%]',
+        "sources":[{
+            "link":"https://www.headphonesty.com/2024/04/spotify-lowers-artist-royalties-subscription-price-hike/",
+            "texts":{
+                "en":"source",
+                "fr":"source",
+                "es":"fuente",
+                "de":"Quelle",
+                "ja":"ソース"
+            }
+        }]
+    },
+    "17": {
+        "format":'[%LINK%]',
+        "sources":[{
+            "link":"https://support.spotify.com/us/artists/article/pitching-music-to-playlist-editors/",
+            "texts":{
+                "en":'source: "You can only pitch one song at a time"',
+                "fr":'source: "You can only pitch one song at a time"',
+                "es":'fuente: "You can only pitch one song at a time"',
+                "de":'Quelle: "You can only pitch one song at a time"',
+                "ja":'ソース: "You can only pitch one song at a time"'
+            }
+        }]
+    },
+    "19": {
+        "format":'[%LINK%]',
+        "sources":[{
+            "link":"https://www.reddit.com/r/truespotify/comments/12tfig9/do_i_have_to_just_accept_spotifys_shuffle_doesnt/",
+            "texts":{
+                "en":"source",
+                "fr":"source",
+                "es":"fuente",
+                "de":"Quelle",
+                "ja":"ソース"
+            }
+        }]
+    },
+}
+
+function addSources(index, elementValue, lang) {
+    if(sources[`${index+1}`]) {
+        const validSources = [];
+        for (let i = 0; i < sources[`${index+1}`]['sources'].length; i++){
+            validSources.push(`<a href="${sources[`${index+1}`]['sources'][i]['link']}" target="_blank">${sources[`${index+1}`]['sources'][i]['texts'][lang]}</a>`);
+        }
+        elementValue.innerHTML += ' ' + sources[`${index+1}`]['format'].replace(/%LINK%/g, `${validSources.join(', ')}`);
+    }
+}
+
 function changeLanguage() {
     const content = document.querySelector('.content');
     const lang = document.documentElement.lang;
-    if(lang === 'en') return;
+    if(lang === 'en') {
+        const elements = Array.from(document.querySelectorAll('.content p')).filter(e => !e.classList.contains('subtitle'))
+        elements.forEach((element, index) => {
+            addSources(index, element, lang);
+        });
+        return;
+    };
     content.innerHTML = '';
     //Head
     document.title = translations[lang]['headTitle'];
@@ -144,6 +298,7 @@ function changeLanguage() {
         content.appendChild(elementKey);
         const elementValue = document.createElement('p');
         elementValue.innerHTML = element;
+        addSources(index, elementValue, lang);
         content.appendChild(elementValue);
     });
     const footer = document.querySelector('footer p');
