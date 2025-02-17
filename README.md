@@ -8,6 +8,7 @@ The site is currently available in:
 - **English**
 - **Français**
 - **Español**
+- **Deutsch**
 - **日本人**
 
 ## 🎨 Aesthetic
